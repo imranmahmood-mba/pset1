@@ -8,6 +8,7 @@ int main(void)
     int i;
     int j;
     int x;
+    int w;
     int Height;
     Height = get_int("Select a height between 1 and 8\n");
     while (Height < 1 || Height > 8)
@@ -18,6 +19,10 @@ int main(void)
     {
         for (i = 1; i <= Height; i++)
         {
+            for (w = Height; w > i; w--)
+            {
+                printf(" ");
+            }
             for (j = 1; j <= i; j++)
             {
                 printf("#");
