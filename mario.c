@@ -4,7 +4,6 @@
 
 int main(void)
 {
-    int test = 0;
     int i;
     int j;
     int x;
